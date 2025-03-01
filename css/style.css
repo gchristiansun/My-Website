@@ -225,6 +225,10 @@ form fieldset button {
     position: absolute;
 }
 
+aside .social-media ul li a {
+    text-decoration: none;
+}
+
 form h1 {
     text-align: center;
     width: 100%;
@@ -304,6 +308,15 @@ header i {
         background-color: white;
         color: #131349;
         transition: background-color 0.2s ease-in-out;
+    }
+
+    #asideButton {
+        display: none;
+    }
+
+    aside .social-media ul li:hover {
+        transform: scale(1.5);
+        transition: transform 0.3s ease-in-out;
     }
     
 }
