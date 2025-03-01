@@ -253,6 +253,10 @@ hr {
     form {
         width: 100%;
     }
+
+    main .container-image .box p {
+        font-size: 14px;
+    }
 }
 
 main .container-biodata img {
