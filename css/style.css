@@ -113,7 +113,7 @@ aside .ph-fill {
 aside .social-media ul {
     list-style-type: none;
     background-color: #131349;
-    padding: 18px 15px;
+    padding: 15px 10px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -257,6 +257,12 @@ hr {
     main .container-image .box p {
         font-size: 14px;
     }
+
+    aside .ph-fill {
+        font-size: 1.5rem;
+        color: white;
+        /* box-shadow: 0px 2px 4px white; */
+    }
 }
 
 main .container-biodata img {
@@ -381,7 +387,7 @@ header i {
     }
 
     aside .social-media ul {
-        max-height: 70px;
+        max-height: 55px;
         overflow: hidden;
         transition: max-height 0.3s ease-in-out;
 
@@ -390,4 +396,13 @@ header i {
     aside .social-media ul.active {
         max-height: 100%;
     }
+}
+
+article {
+    max-width: 600px;
+}
+
+article p {
+    text-align: justify;
+    font-weight: 500;
 }
