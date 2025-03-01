@@ -124,6 +124,7 @@ aside .social-media ul {
 aside {
     position: fixed;
     right: 20px;
+    top: 40%
 }
 
 .container-image {
